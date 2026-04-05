@@ -33,3 +33,32 @@ int main ()
 }
 ```
 - the *stdio* means the *standard input and output* 
+
+### Running Our First C Code
+
+```c
+# include <stdio.h>
+int main () // this is the main function and its a function return type
+
+{
+    printf("hello world"); // we have not wrote the function of printing its coming from header file 
+    return 0; // return 0 means the code has run successfully
+}
+```
+- c programming starts to execute from main function 
+
+### Printing in C 
+
+```c
+#include<stdio.h>
+int main()
+{
+    printf("I am Sazid\n"); // for printing with brake \n is used 
+    printf("demon\n");
+    printf("dem\ton");
+    return 0;
+}
+```
+
+- for printing with brake **\n** is used
+- for the *Tab Space* we can use *\t*
