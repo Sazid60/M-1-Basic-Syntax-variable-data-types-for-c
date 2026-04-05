@@ -62,3 +62,83 @@ int main()
 
 - for printing with brake **\n** is used
 - for the *Tab Space* we can use *\t*
+
+### Variable and Data Type
+
+1. *int* -> -100, 0, 100
+2. *float* -> -2.5, 5.46
+3. *char* -> 'a', 'A', '@', 'H'
+4. *boolean* -> True or False
+
+### Variables in C 
+
+```
+data-type variable name 
+```
+
+```c
+#include<stdio.h>
+int main()
+{
+    int num; // declaring avariable will be stored in memory and we will assign data. 
+    num=10;
+    // or we can also write 
+    int num1 = 10; 
+    num1 = 20;
+    float f = 3.56;
+    char c = 'i am sazid';
+    return 0;
+}
+```
+- variable is stored in memory and value is assigned and the code will be executed line by line 
+
+- *int* holds *4 byte space* in memory, *float* holds *4 byte space* in memory, *char* holds *1 byte space* in memory
+- *1 byte* means *8 bit*. 010101(here is 6 bit) as compute understand 0 and 1 these are bit. 
+- *1024 bit* means *1 kb*
+- *1024 kb* means *1 mb*
+- *1024 mb* means *1 gb*
+- *1024 gb* means *1 tb*
+
+## print a variable 
+
+```c
+#include<stdio.h>
+int main()
+{
+    int num; // declaring avariable will be stored in memory and we will assign data. 
+    num=10;
+    // or we can also write 
+    int num1 = 10; 
+    num1 = 20;
+    float f = 3.56;
+    char c = 'i am sazid';
+    printf("num1"); // we cant print like this 
+    return 0;
+}
+```
+- we cant print like this **We need format specifier** for printing variables 
+1. *int* -> %d
+2. *float* -> %f
+3. *char* -> %c
+
+```c
+#include<stdio.h>
+int main()
+#include<stdio.h>
+int main()
+{
+    int num; // declaring avariable will be stored in memory and we will assign data. 
+    num=10;
+    // or we can also write 
+    int num1 = 10; 
+    num1 = 20;
+    float f = 3.56;
+    char c = 'i am sazid';
+    // printf("num1"); // we cant print like this 
+    printf("%d", num1);
+    printf("%f", f);
+    printf("%2f", f);
+    printf("%c", c);
+    return 0;
+}
+```
